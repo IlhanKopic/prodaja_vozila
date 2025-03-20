@@ -10,7 +10,7 @@
 	'sidebar_left content content content sidebar_right'
 	'footer footer footer footer footer';
 	grid-gap: 10px;
-	background-color: #2196F3;
+	background-color: #f3aa21;
 	padding: 10px;
 	min-height: 100vh;
 	height:fit-content;
@@ -39,7 +39,6 @@
 }
 
 .sidebar_right{
-display: grid;
 grid-area: sidebar_right;
 }
 
@@ -52,34 +51,34 @@ grid-area: sidebar_right;
 }
 
 .footer{
-
-background-color:#2196F3;
-padding: 10px;
-display: grid;
-	grid-template-columns:50px 50px 50px 50px;
+    display: flex;
+    background-color:#f3aa21;
+    padding: 10px;
 	justify-content: space-around;
-	grid-gap: 20px;
-	background-color: #2196F3;
+	background-color: #f3aa21;
 	padding: 10px;
-	justify-items: stretch;	
-
 }
 
 .footer a{
-	border-color: blue;
+	border-color: rgb(255, 174, 0);
 	border-style: solid;
-	background-color: green;
+	background-color: rgb(255, 174, 0);
 	width: 10%;
 	padding: 1px;
 	border-radius: 10px;
 	color: white;
-	justify-self: stretch;
+
 
 }
 
 .footer > div{
-	background-color: blue;
+	background-color: rgb(255, 174, 0);
 }
+
+.footer .footer-item img{
+	width: 90%;
+	height: 90%;
+} 
 
 ul{
 list-style-type: none;
